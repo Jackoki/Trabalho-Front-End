@@ -1,0 +1,13 @@
+Integrantes:
+Gabriel Kenji
+Crislean Santos
+Daniel de Abreu
+
+Link do Github:
+https://github.com/Jackoki/trabalho-front-end
+
+Link do Github Page:
+https://jackoki.github.io/trabalho-front-end/
+
+Link do Vídeo: 
+https://www.youtube.com/watch?v=f6v2I54xhG8
