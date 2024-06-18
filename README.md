@@ -15,3 +15,4 @@ Ao acessar, é possível visualizar a presença de algumas páginas, como  tela 
 - Por último, temos a página Admin, que foi uma exigência para a 2º entrega do trabalho, em que o usuário insere o nome do usuário e email e ao clicar em cadastrar, o valor será armazenado no local storage como lista, podendo apagar um objeto ou a lista inteira.
 
 Link para a visualização no Github Pages: https://jackoki.github.io/trabalho-front-end/
+Link para visualização do vídeo de entrega: https://youtu.be/FtSZXQZ6baA
