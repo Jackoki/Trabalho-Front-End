@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const email = document.getElementById('email').value;
 
     if (user && email) {
-        const userId = generateUserId(); // Gerar um ID único
+        const userId = generateUserId();
         const userObject = {
 			id: userId,
 			user,
