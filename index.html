@@ -45,73 +45,72 @@
 	
 	<br><br><br>
 	
-	<form>
-			<label for="kwh">Quantos kWh você gasta mensalmente?</label>
-			<br>
-			<input type="number" id="kwh" value="0" min="0" required>
-			<br><br>
-			
-			<label for="gas">Quantos botijões de gás você utiliza por mês?</label>
-			<br>
-			<input type="number" id="gas" step="0.1" value="0" min="0" required>
-			<br><br>
-			
-			<label for="combustivel">Quantos litros de combustível você gasta por mês?</label>
-			<br>
-			<input type="number" id="combustivel" value="0" min="0" required>
-			<br><br>
+    <form>
+        <label for="kwh">Quantos kWh você gasta mensalmente?</label>
+        <br>
+        <input type="number" id="kwh" value="0" min="0" required>
+        <br><br>
 
-			<label>Qual o tipo de combustível?</label>
-			<br>
-			
-			<input type="radio" id="gasolina" name="combustivel" value="gasolina" checked>
-			<label for="gasolina">Gasolina</label>
-			<input type="radio" id="etanol" name="combustivel" value="etanol">
-			<label for="etanol">Etanol</label>
-			<input type="radio" id="diesel" name="combustivel" value="diesel">
-			<label for="diesel">Diesel</label>
-			
-			<br><br>
-			<label for="aviao">Quantas horas de avião você viajou no último ano?</label>
-			<br>
-			<input type="number" id="aviao" step="0.5" value="0" min="0" required>
-			<br><br>
-			
-			<label for="carne">Quantos quilos de carne bovina você come por mês?</label>
-			<br>
-			<input type="number" id="carne" step="0.1" value="0" min="0" required>
-			<br><br>
-			
-			<label for="queijo">Quantas quilos de queijo você come por mês?</label>
-			<br>
-			<input type="number" id="queijo" step="0.1" value="0" min="0" required>
-			<br><br>
-			
-			<label for="cafe">Quantas litros de café você bebe por mês?</label>
-			<br>
-			<input type="number" id="cafe" step="0.1" value="0" min="0" required>
-			<br><br>
-			
-			<label for="roupa">Quantos quilos de roupa você comprou no último ano?</label>
-			<br>
-			<input type="number" id="roupa" step="0.1" value="0" min="0" required>
-			<br><br>
-			
-			<label for="eletronicos">Quantas quilos de eletrônicos você comprou no último ano?</label>
-			<br>
-			<input type="number" id="eletronicos" step="0.1" value="0" min="0" required>
-			<br><br>
-			
-			<input type="reset">
-			<input type="button" value="Calcular">
-	</form>
+        <label for="gas">Quantos botijões de gás você utiliza por mês?</label>
+        <br>
+        <input type="number" id="gas" step="0.1" value="0" min="0" required>
+        <br><br>
+
+        <label for="combustivel">Quantos litros de combustível você gasta por mês?</label>
+        <br>
+        <input type="number" id="combustivel" value="0" min="0" required>
+        <br><br>
+
+        <label>Qual o tipo de combustível?</label>
+        <br>
+		<input type="radio" id="gasolina" name="combustivel" value="gasolina" checked>
+		<label for="gasolina">Gasolina</label>
+		<input type="radio" id="etanol" name="combustivel" value="etanol">
+		<label for="etanol">Etanol</label>
+		<input type="radio" id="diesel" name="combustivel" value="diesel">
+		<label for="diesel">Diesel</label>
+
+        <br><br>
+        <label for="aviao">Quantas horas de avião você viajou no último ano?</label>
+        <br>
+        <input type="number" id="aviao" step="0.5" value="0" min="0" required>
+        <br><br>
+
+        <label for="carne">Quantos quilos de carne bovina você come por mês?</label>
+        <br>
+        <input type="number" id="carne" step="0.1" value="0" min="0" required>
+        <br><br>
+
+        <label for="queijo">Quantas quilos de queijo você come por mês?</label>
+        <br>
+        <input type="number" id="queijo" step="0.1" value="0" min="0" required>
+        <br><br>
+
+        <label for="cafe">Quantas litros de café você bebe por mês?</label>
+        <br>
+        <input type="number" id="cafe" step="0.1" value="0" min="0" required>
+        <br><br>
+
+        <label for="roupa">Quantos quilos de roupa você comprou no último ano?</label>
+        <br>
+        <input type="number" id="roupa" step="0.1" value="0" min="0" required>
+        <br><br>
+
+        <label for="eletronicos">Quantas quilos de eletrônicos você comprou no último ano?</label>
+        <br>
+        <input type="number" id="eletronicos" step="0.1" value="0" min="0" required>
+        <br><br>
+
+        <input type="reset">
+        <input type="button" value="Calcular" onclick="calcularEmissao()">
+    </form>
 
 
-    <div class="text3">
-         <h1>O total de quilos de CO² que você emite mensalmente é:</h1>
-		 <img class="co2" src = "img/home/co2.png" alt = "Imagem 3">
-		 <h1>XX KGs</h1>
-    </div>
+        <div class="text3">
+             <h1>O total de quilos de CO² que você emite mensalmente é:</h1>
+             <img class="co2" src="img/home/co2.png" alt="Imagem 3">
+             <h1 id="resultadoEmissao">XX KGs</h1>
+        </div>
 
 
 
@@ -127,6 +126,8 @@
 			<li><a href="https://github.com/DeAvreux">GitHub Daniel</a></li>
         </ul>
     </footer>
+	
+	<script src="javascript/calculos.js"></script>
 </body>
 
 </html>
