@@ -13,3 +13,5 @@ Ao acessar, é possível visualizar a presença de algumas páginas, como  tela 
 - Na parte de informação dos cálculos nós temos as fontes e explicações dos nossos cálculos, sendo por emissão de gás, energia, combustível, viagem aérea, comida e por hábitos de consumo. 
 - Indo para a aba de dicas, temos algumas sugestões para a diminuição de emissão de gás carbônico dependendo dos fatores que citamos anteriormente, realizando sugestões e alternativas de ações para diminuir a pegada de carbono geral.
 - Por último, temos a página Admin, que foi uma exigência para a 2º entrega do trabalho, em que o usuário insere o nome do usuário e email e ao clicar em cadastrar, o valor será armazenado no local storage como lista, podendo apagar um objeto ou a lista inteira.
+
+Link para a visualização no Github Pages: https://jackoki.github.io/trabalho-front-end/
